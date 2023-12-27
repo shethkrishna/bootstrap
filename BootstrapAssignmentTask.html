@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bootstrap Assignment Task </title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       
+    .header .menu a{
+        text-decoration: none;
+        /* color: white; */
+        margin: 10px;
+    }
+    .main{
+        padding: 100px;
+        background-color: gray;
+        position: relative;
+    }
+    /* .main .symbol{
+        position: absolute;
+        color: white;
+    } */
+    .main .lessthan{
+        left: 3%;
+        top: 50%;
+    }
+    .main .greaterthan{
+        right: 3%;
+        top: 50%;
+    }
+    .main .symbol{
+        color: lightgray;
+    }
+    .main .bar{
+        color: lightgray;
+    }
+    .main .bar:hover{
+        color: white;
+    }
+    .main .bar1{
+        bottom: 0;
+        left: 48%;
+    }
+    .main .bar2{
+        bottom: 0;
+        left: 50%;
+    }
+   .main .bar3{
+        bottom: 0;
+        left: 52%;
+    }
+    .heading .head .h{
+        width: 90px;
+        height: 90px;
+        border-radius: 100%;
+        background-color: grey;
+        margin: 0 auto;
+    }
+    .heading .head{
+        color: grey;
+    }
+    .heading .head span{
+        background-color: grey;
+    }
+    .feature-head .fh-right .box{
+        width: 300px;
+        height: 300px;
+        background-color: lightgrey;
+        font-weight: 900;
+        align-self: center;
+    }
+    .feature-head {
+        color: grey;
+    }
+    </style>
+</head>
+<body>
+     <div class="header Container-fluid bg-dark d-flex justify-content-between align-items-center p-2">
+        <div class="menu">
+            <a href="" class="text-white"> Carousel </a>
+            <a href=""  class="text-white"> Home </a>
+            <a href=""  class="text-secondary"> Link </a>
+            <a href=""  class="text-secondary"> Disabled </a>
+        </div>
+        <div class="search form-group d-flex">
+            <input type="search" placeholder="Search" class="py-1">
+            <span class="btn text-success border-success"> Search</span>
+        </div>
+     </div>
+
+     <div class="main contaner-fluid text-white text-end position-relative">
+        <div class="symbol lessthan position-absolute"> &lt; </div>
+        <div class="symbol greaterthan position-absolute"> &gt; </div>
+        <h2> One more for good measure. </h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, earum. Possimus sequi mollitia quam amet, repellat distinctio, quos illo nemo quasi quae animi eos eligendi.</p>
+        <button class="btn btn-primary text-white"> Browse gallery </button>
+
+        <div class="bar bar1 position-absolute"> &#8213; </div>
+        <div class="bar bar2 position-absolute"> &#8213; </div>
+        <div class="bar bar3 position-absolute"> &#8213; </div>
+     </div>
+
+     <div class="heading d-flex justify-content-evenly mt-5 p-2 text-center">
+        <div class="head p-3">
+            <div class="h"></div>
+            <h3> Heading </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore a qui sed? Et laudantium ex officiis, magnam accusantium ratione ducimus id ullam praesentium rem?</p>
+            <span class="text-white p-1"> View details &gt;</span>
+        </div>
+        <div class="head p-3">
+            <div class="h"></div>
+            <h3> Heading </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore a qui sed? Et laudantium ex officiis, magnam accusantium ratione ducimus id ullam praesentium rem?</p>
+            <span class="text-white p-1"> View details &gt;</span>
+        </div>
+        <div class="head p-3">
+            <div class="h"></div>
+            <h3> Heading </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore a qui sed? Et laudantium ex officiis, magnam accusantium ratione ducimus id ullam praesentium rem?</p>
+            <span class="text-white p-1"> View details &gt;</span>
+        </div>
+     </div>
+
+     <div class="feature-head d-flex justify-content-between p-5 border border-start-0 border-end-0 mt-5">
+        <div class="fh-left align-self-center p-5">
+            <h1> First featurette heading. It'll <br> blow your mind. </h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,praesentium. Veniam similique amet consectetur commodi quibusdam nihil eum ea dicta, incidunt quam esse quis rerum?</p>
+        </div>
+        <div class="fh-right"> 
+            <div class="box  d-flex justify-content-center align-items-center"> <span>500 &#120; 500 </span></div>    
+        </div>
+     </div>
+
+     <div class="feature-head d-flex justify-content-between p-5 border border-top-0 border-start-0 border-end-0 mt-5">
+        <div class="fh-right"> 
+            <div class="box  d-flex justify-content-center align-items-center"> <span>500 &#120; 500 </span></div>    
+        </div>
+        <div class="fh-left align-self-center p-5">
+            <h1> Ohh yeah, it's that good.See <br> for yourself. </h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,praesentium. Veniam similique amet consectetur commodi quibusdam nihil eum ea dicta, incidunt quam esse quis rerum?</p>
+        </div>
+        
+     </div>
+
+     <div class="feature-head d-flex justify-content-between p-5 border border-top-0 border-start-0 border-end-0 mt-5">
+        <div class="fh-left align-self-center p-5">
+            <h1> And lastly, this one. <br> Checkmate. </h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,praesentium. Veniam similique amet consectetur commodi quibusdam nihil eum ea dicta, incidunt quam esse quis rerum?</p>
+        </div>
+        <div class="fh-right"> 
+            <div class="box  d-flex justify-content-center align-items-center"> <span>500 &#120; 500 </span></div>  
+        </div>
+     </div>
+
+     <div class="footer d-flex justify-content-between  p-5">
+        <div>
+            &copy; 2017-2018 company.Inc . <span class="text-primary"> Privacy </span> . <span  class="text-primary"> Terms </span>
+        </div>
+        <div class="text-primary">
+            back to top
+        </div>
+     </div>
+
+</body>
+</html>
